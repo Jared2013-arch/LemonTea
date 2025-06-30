@@ -1,0 +1,9 @@
+{
+  "pack_name": "LemonTea",
+  "author": "BittoyChris",
+  "description": "柠檬茶",
+  "version": "v0.16.4d",
+  "base_path": "./src",
+  "main_module": "main",
+  "version_modules": {}
+}
