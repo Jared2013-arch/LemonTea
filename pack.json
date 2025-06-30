@@ -1,6 +1,8 @@
 {
-    "pack":{
-        "pack_format": 26,
-        "description": "Lemon Tea"
-    }
+    "description": [
+        {
+            "text": "Lemon Tea"
+        }
+    ],
+    "pack_format": 80,
 }
