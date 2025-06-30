@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:map"
+		},
+		"title": "显示群系",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "副手持有"},
+			{"text": "地图","color":"yellow"},
+			{"text": "，屏幕显示"},
+			{"text": "生物群系","color":"aqua"},
+			{"text": "。"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:travel/acbar/coordinate",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

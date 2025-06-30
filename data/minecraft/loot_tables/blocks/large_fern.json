@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:empty",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "predicate": {
+                      "type": "minecraft:player"
+                    },
+                    "entity": "this"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "large_fern",
+                  "properties": {
+                    "half": "upper"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:large_fern",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "predicate": {
+                      "type": "minecraft:player"
+                    },
+                    "entity": "this"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "large_fern",
+                  "properties": {
+                    "half": "lower"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "vanilla:blocks/large_fern"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

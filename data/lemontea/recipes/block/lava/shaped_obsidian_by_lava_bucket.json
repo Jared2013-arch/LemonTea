@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "XXX",
+        "XOX",
+        "XXX"
+    ],
+    "key":{
+        "X":{"item":"minecraft:lava_bucket"},
+        "O":{"item":"minecraft:packed_ice"}
+    },
+    "result":{
+        "item":"minecraft:obsidian",
+        "count":8
+    }
+}

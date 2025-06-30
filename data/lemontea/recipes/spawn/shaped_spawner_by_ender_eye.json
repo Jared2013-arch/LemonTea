@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "XXX",
+        "XOX",
+        "XXX"
+    ],
+    "key":{
+        "X":{"item":"minecraft:netherite_scrap"},
+        "O":{"item":"minecraft:ender_eye"}
+    },
+    "result":{
+        "item":"minecraft:spawner",
+        "count":1
+    }
+}

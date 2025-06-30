@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_boots"
+		},
+		"title": "生存技能",
+		"description": [
+			{"text": "","color":"white"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame":"goal"
+	},
+	"parent": "lemontea:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
